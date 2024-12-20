@@ -13,8 +13,8 @@ export const getValorantLiveVideos = async (pageToken?: any) => {
 		type: 'video',
 		eventType: 'live', // Filter for live videos
 		videoCaption: 'any', // Include videos with or without captions
-		regionCode: 'IN', // Target India for Hindi language videos
-		maxResults: 10, // Number of results
+		regionCode: 'IN', // Target India
+		maxResults: 50, // Number of results
 		pageToken
 	});
 
